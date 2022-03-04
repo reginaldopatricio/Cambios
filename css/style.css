@@ -140,7 +140,8 @@
 
 }
 .col-3{
-
+	text-align: center;
+	align-items: center;
 	float: left;
 	width: 30%;
 	padding: 1%;
@@ -151,7 +152,7 @@
 
 	margin: auto;
 	display: block;
-	width: 200px;
+	width: 100%;
 
 }
 
@@ -165,6 +166,18 @@
 .Marco-imagen:hover >.movimiento{
 	opacity: 1;
 
+}
+
+.Marco-imagen{
+	align-items: center;
+	margin-left: 15%;
+	margin-right: 15%;
+	width: 70%;
+}
+.piefoto{
+	margin-left: 15%;
+	margin-right: 15%;
+	width: 70%;
 }
 
 .movimiento{
