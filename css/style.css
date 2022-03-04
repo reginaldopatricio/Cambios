@@ -1,0 +1,211 @@
+*{
+	/*font-family: 'Montserrat', sans-serif;*/
+	margin: 0;
+	padding: 0;
+
+}
+
+.container{
+	background-color: green;
+
+}
+.header{
+	background-image: url('../img/Maquina.jpg');
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.navbar{
+	color: white;
+	width: 100%;
+}
+
+
+.nav-link{
+	display: inline-block;
+	padding: 15px ;
+}
+
+.nav-link>a{
+	color: currentColor;
+	text-decoration: none;
+	padding: 15px;
+}
+.nav-link:hover{
+	background-color: coral;
+}
+
+.contenido{
+	background-color:gray;
+	width: 100%;
+}
+
+#MENÚ ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    font-family: Arial, sans-serif;
+    font-size: 11pt;
+}
+
+#MENÚ ul li {
+    background-color: #666;
+    display: none;
+    min-width: 140px;
+}
+
+#MENÚ ul li a {
+    color: #ccc;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 10px 10px 10px 20px;
+}
+
+#MENÚ ul li a:hover {
+    background: #000;
+    border-left: 10px solid #333;
+    color: #fff;  
+}
+
+#MENÚ > li > ul{
+
+  display: none;
+}
+#MENÚ > li:hover >ul {
+
+  display:block;
+}
+
+.fila{
+	width: 100%;
+	display: table;
+	
+}
+
+.columna{
+	display: table-cell;
+	width: 50%;
+	position: relative;
+	
+
+	
+}
+
+.columna >img{
+	width: 100%;
+	height: 500px;
+	
+}
+
+.columna:hover > .overlay{
+	opacity: 1;
+}
+
+.overlay{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	opacity: 0;
+	transition: .5s ease;
+}
+
+.overlay-texto{
+
+	color: white;
+	text-align: center;
+	padding-top: 25%;
+	font-size: 50px;
+}
+.Contexto{
+
+	background-color: gray;
+	width:90%;
+	padding: 5% 5%;
+}
+
+.Contexto h1{
+	color: white;
+	text-align: center;
+	padding-top: 1%;
+	font-size: 50px;
+
+}
+.col-3{
+
+	float: left;
+	width: 30%;
+	padding: 1%;
+	
+}
+
+.col-3>img{
+
+	margin: auto;
+	display: block;
+	width: 200px;
+
+}
+
+.col-3>h5{
+	text-align: center;
+}
+
+.col-3>h1{
+	text-align: center;
+}
+.Marco-imagen:hover >.movimiento{
+	opacity: 1;
+
+}
+
+.movimiento{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	opacity: 0;
+	transition: .5s ease;
+}
+
+.movimiento-text{
+	color: white;
+	text-align: center;
+	padding-top: 18%;
+	font-size: 50px;
+}
+
+
+.col-3>img:hover{
+
+
+
+}
+
+.Marco-imagen{
+	position: relative;
+	width: 400px;
+}
+
+.Marco-imagen>img{
+
+	margin: auto;
+	display: block;
+	width: 100%;
+	border-radius: 5px;
+
+}
+
+.Marco-imagen>img>
