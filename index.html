@@ -8,6 +8,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="./css/style.css"/>
+<link rel="stylesheet" type="text/css" href="./css/animate.css"/>
+<link rel="stylesheet" type="text/css" href="./css/fontawesome/css/all.min.css">
 
 </head>
 
@@ -16,37 +18,43 @@
 
 			<nav class="navbar">
 				<ul>
-					<li class="nav-link"> <a href="#MENÚ">MENÚ</a> </li>
+					<li id="desplegarMenu" class="nav-link"> <a href="#MENÚ">MENÚ</a> </li>
 					<li class="nav-link"> <a href="#ACERCA DE NOSOTROS">ACERCA DE NOSOTROS</a> </li>
 					<li class="nav-link"> <a href="#CONTÁCTANOS">CONTÁCTANOS</a> </li>
 					<li class="nav-link"> <a href="./pages/login.html">INICIAR SESION</a> </li>
+							
 				</ul>
 			</nav>
-			
-	</div>
 
-	<div id="MENÚ">
-		<ul>
-		  <li><a href="..." title="...">Home</a></li>
-		  <li><a href="..." title="...">Archivos</a></li>
-		  <li><a href="..." title="...">Enlaces</a></li>
-		  <li><a href="..." title="...">Acerca de</a></li>
- 		</ul>
-		
+			<div id="MENÚ">
+						<ul>
+						  <li><a href="..." title="...">Home</a></li>
+						  <li><a href="..." title="...">Archivos</a></li>
+						  <li><a href="..." title="...">Enlaces</a></li>
+						  <li><a href="..." title="...">Acerca de</a></li>
+				 		</ul>
+			
+		</div>
+
+		<h1 class="icono animated pulse"><i class="fa-solid fa-laptop">ORDENADORES</i></h1>
+
+			
 	</div>
 
 	<div class="contenido">
 		
 		<div class="fila">
-			<div class="columna">
+			<a href="enlace.html">
+				<div class="columna">
 				<img src="./img/junta.jpg">
 				<div class="overlay">
 					<div class="overlay-texto">
-						NOVEDADES
+						NOVEDADES 
 					</div>
 				</div>
 
 			</div>
+			
 			<div class="columna">
 				<img src="./img/mezcla.jpg" />
 				<div class="overlay">
@@ -56,7 +64,7 @@
 					
 				</div>
 			</div>
-			
+			</a>
 		</div>
 	</div>
 
@@ -69,6 +77,7 @@
 	<div class="Marcas">
 
 		<div class="col-3" >
+			<a href="enlace.html">
 			<div class="Marco-imagen">
 					<img src="./img/mezcla.jpg" />
 					<div class="movimiento">
@@ -77,10 +86,13 @@
 						</div>
 					</div>	
 			</div>
+			</a>
 			<h2 class="piefoto">No podrás encontrarlo a mejor precio</h2>
+
 		</div>
 
 		<div class="col-3">
+			<a href="enlace.html">
 			<div class="Marco-imagen">
 					<img src="./img/mezcla.jpg" />
 					<div class="movimiento">
@@ -89,12 +101,13 @@
 						</div>
 					</div>	
 			</div>
+			</a>
 			<h2 class="piefoto">La mejor venta de teléfonos</h2>
 			<p></p>
 		</div>
 
 		<div class="col-3">
-
+			<a href="enlace.html">
 			<div class="Marco-imagen">
 					<img src="./img/mezcla.jpg" />
 					<div class="movimiento">
@@ -103,22 +116,87 @@
 						</div>
 					</div>	
 			</div>
+			</a>
 			<h2 class="piefoto">Variedad de productos electrónicos para el gusto de todos</h2>
 		</div>
 
+	<div class="col-4">
+		<h1 class="margenvertical">APOYO AL CLIENTE</h1>
+		<p>Gestionar cuenta</p>
+		<p>Ayuda</p>
+		<p>Centro de soporte</p>
 	</div>
 
-	<!--<div class="Parafo">
-		<h1>Tu tienda de informática online</h1>
-		<div class="col-4">
-			
-		</div>
-		
-	</div>-->
+	<div class="col-4">
+		<h1 class="margenvertical">SOBRE LA PÁGINA</h1>
+		<p>Todo sobre la página</p>
+		<p>Mapa del sitio</p>
+		<p>Política de cookies</p>
+		<p>islas baleares</p>
+	</div>
+
+	<div class="col-4">
+		<h1 class="margenvertical">SERVICIOS ADICIONALES</h1>
+		<p>Financiación en Worten</p>
+		<p>Black friday</p>
+	</div>
+
+	<div class="col-4">
+		<h1 class="margenvertical">MÉTODOS DE PAGO</h1>
+		<p>VISA</p>
+		<p>PayPal</p>
+		<p>Oney</p>
+	</div>
+
+	<div class="clearer"></div>
+
+</div>
 
 
+<div class="Parafo">
+	<div class="formContenedor">
+
+		<form action="/action_page.php">
+
+	    <label for="Email">Email</label>	
+	    <input type="email" id="Email" name="Email" placeholder="Tu Email..">
+
+	    <label for="Nombre">Nombre</label>
+	    <input type="text" id="Nombre" name="Nombre" placeholder="Tu Nombre..">
+
+	    <label for="Ciudad">Ciudad</label>
+	    <select id="ciudad" name="Ciudad">
+	      <option value="Madrid">Madrid</option>
+	      <option value="Valencia">Valencia</option>
+	      <option value="Palma">Palma</option>
+	    </select>
+
+			<input type="submit" value="Enviar">
+											
+		</form>
+	
+	</div>
+
+	<div class="ConocenosContenedor">
+		<h1 class="Conocenos">CONOCENOS</h1>
+		<p>Grupo fleming(edib)</p>
+		<p>primero de aplicaciones web</p>
+		<p>lenguaje de marcado</p>
 		
+	</div>
+
+	<div class="comoFuncionamosContenedor">
 			
+		<h1 class="comoFuncionamos">COMO FUNCIONAMOS</h1>
+		<P>Somos independientes</P>
+		<P>El poder del negocio</P>
+		<P>La tecnologia es el futuro</P>
+
+	</div>
+	<div class="clearer"></div>
+
+
+</div>	
 
 
 </body>
